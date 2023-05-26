@@ -1,0 +1,8 @@
+project: Marshal
+target: fuzz-marshal
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /release/MarshalFuzz
+    libfuzzer: true
